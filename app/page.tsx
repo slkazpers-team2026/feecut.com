@@ -40,14 +40,14 @@ export default function HomePage() {
       <script {...jsonLdScriptProps(faqJsonLd)} />
 
       <main className="min-h-screen bg-[#09090b] text-neutral-100 selection:bg-indigo-500/30 selection:text-indigo-200">
-        {/* Background glow effects */}
+        {}
         <div className="pointer-events-none fixed inset-0 overflow-hidden">
           <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[720px] h-[480px] bg-gradient-to-tr from-indigo-600/15 via-violet-600/10 to-sky-500/10 blur-[130px] rounded-full" />
           <div className="absolute top-[40%] right-[-10%] w-[500px] h-[500px] bg-emerald-500/5 blur-[140px] rounded-full" />
         </div>
 
         <div className="relative z-10 mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 space-y-20">
-          {/* Navigation / Header Brand */}
+          {}
           <header className="mb-4 flex items-center justify-between border-b border-neutral-800/80 pb-6">
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-indigo-500 to-violet-500 font-bold text-white shadow-lg shadow-indigo-500/25">
@@ -71,7 +71,7 @@ export default function HomePage() {
             </div>
           </header>
 
-          {/* Hero Title */}
+          {}
           <div className="mx-auto max-w-3xl text-center mb-6">
             <div className="inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-4 py-1.5 text-xs font-medium text-indigo-300 mb-4 shadow-inner">
               <Zap className="h-3.5 w-3.5 text-indigo-400" />
@@ -88,10 +88,10 @@ export default function HomePage() {
             </p>
           </div>
 
-          {/* Main Calculator */}
+          {}
           <Calculator />
 
-          {/* Feature Highlights Grid */}
+          {}
           <section className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
             <div className="rounded-2xl border border-neutral-800/80 bg-neutral-950/40 p-6 backdrop-blur">
               <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-indigo-500/20 bg-indigo-500/10 text-indigo-400 mb-4">
@@ -124,7 +124,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          {/* SEO Editorial + FAQ */}
+          {}
           <ContentSection />
         </div>
       </main>

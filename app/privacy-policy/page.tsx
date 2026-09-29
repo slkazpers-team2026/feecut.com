@@ -150,13 +150,13 @@ const SECTIONS: ReadonlyArray<Section> = [
 export default function PrivacyPolicyPage() {
   return (
     <main className="min-h-screen bg-[#09090b] px-4 py-12 text-neutral-200 sm:px-6 lg:px-8">
-      {/* Background glow */}
+      {}
       <div className="pointer-events-none fixed inset-0 overflow-hidden">
         <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-gradient-to-tr from-emerald-600/10 via-indigo-600/5 to-transparent blur-[130px] rounded-full" />
       </div>
 
       <div className="relative z-10 mx-auto max-w-3xl space-y-10">
-        {/* Back navigation */}
+        {}
         <Link
           href="/"
           className="inline-flex items-center gap-2 text-sm text-neutral-400 hover:text-indigo-400 transition group"
@@ -204,7 +204,7 @@ export default function PrivacyPolicyPage() {
           ))}
         </div>
 
-        {/* Consent notice */}
+        {}
         <div className="rounded-2xl border border-emerald-500/20 bg-emerald-500/5 px-5 py-4 text-sm text-emerald-300/80">
           <p className="font-semibold text-emerald-300 mb-1">Consent</p>
           <p>

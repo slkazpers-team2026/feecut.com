@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="border-t border-neutral-800/80 bg-[#09090b]/80 pt-16 pb-12 backdrop-blur-md">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-5 pb-12 border-b border-neutral-800/80">
-          {/* Brand & Mission */}
+          {}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="inline-flex items-center gap-3 group">
               <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-tr from-indigo-500 to-violet-500 font-bold text-white shadow-lg shadow-indigo-500/25 transition group-hover:scale-105">
@@ -27,7 +27,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Navigation */}
+          {}
           <div className="space-y-3">
             <p className="text-xs font-semibold uppercase tracking-wider text-neutral-300">
               Calculators
@@ -51,7 +51,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Company & Support */}
+          {}
           <div className="space-y-3">
             <p className="text-xs font-semibold uppercase tracking-wider text-neutral-300">
               Company
@@ -81,7 +81,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Trust & Legal */}
+          {}
           <div className="space-y-3">
             <p className="text-xs font-semibold uppercase tracking-wider text-neutral-300">
               Trust & Legal
@@ -103,7 +103,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Financial Disclaimer */}
+        {}
         <div className="mt-8 rounded-2xl border border-neutral-800/60 bg-neutral-950/60 p-5 text-xs leading-relaxed text-neutral-500">
           <p className="font-semibold text-neutral-400 mb-1">Financial Disclaimer & Trademark Notice</p>
           <p>
@@ -111,7 +111,7 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Copyright & Bottom bar */}
+        {}
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
           <p>© {currentYear} FeeCut.com. All rights reserved.</p>
           <div className="flex items-center gap-6">

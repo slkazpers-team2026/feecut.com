@@ -138,13 +138,13 @@ const SECTIONS: ReadonlyArray<Section> = [
 export default function TermsOfServicePage() {
   return (
     <main className="min-h-screen bg-[#09090b] px-4 py-12 text-neutral-200 sm:px-6 lg:px-8">
-      {/* Background glow */}
+      {}
       <div className="pointer-events-none fixed inset-0 overflow-hidden">
         <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-gradient-to-tr from-amber-600/8 via-indigo-600/5 to-transparent blur-[130px] rounded-full" />
       </div>
 
       <div className="relative z-10 mx-auto max-w-3xl space-y-10">
-        {/* Back navigation */}
+        {}
         <Link
           href="/"
           className="inline-flex items-center gap-2 text-sm text-neutral-400 hover:text-indigo-400 transition group"
@@ -168,7 +168,7 @@ export default function TermsOfServicePage() {
           </p>
         </header>
 
-        {/* Prominent disclaimer callout */}
+        {}
         <div className="rounded-2xl border border-amber-500/30 bg-amber-500/5 px-5 py-4 flex gap-3">
           <AlertTriangle className="h-5 w-5 text-amber-400 shrink-0 mt-0.5" />
           <div className="text-sm text-amber-200/80 leading-relaxed">

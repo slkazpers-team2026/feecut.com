@@ -94,14 +94,14 @@ const STORY_PARAGRAPHS: ReadonlyArray<string> = [
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-[#09090b] px-4 py-12 text-neutral-200 sm:px-6 lg:px-8">
-      {/* Background glows */}
+      {}
       <div className="pointer-events-none fixed inset-0 overflow-hidden">
         <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-gradient-to-tr from-indigo-600/10 via-violet-600/5 to-transparent blur-[130px] rounded-full" />
         <div className="absolute top-[60%] right-[-10%] w-[400px] h-[400px] bg-emerald-500/5 blur-[140px] rounded-full" />
       </div>
 
       <div className="relative z-10 mx-auto max-w-4xl space-y-14">
-        {/* Back navigation */}
+        {}
         <Link
           href="/"
           className="inline-flex items-center gap-2 text-sm text-neutral-400 hover:text-indigo-400 transition group"
@@ -110,7 +110,7 @@ export default function AboutPage() {
           Back to Calculator
         </Link>
 
-        {/* Hero Header */}
+        {}
         <header className="space-y-6 text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs font-medium uppercase tracking-wider text-emerald-400">
             <Sparkles className="h-3.5 w-3.5" />
@@ -126,7 +126,7 @@ export default function AboutPage() {
           </p>
         </header>
 
-        {/* Mission Pillars */}
+        {}
         <section className="grid gap-5 md:grid-cols-3">
           {PILLARS.map((pillar) => (
             <div
@@ -146,7 +146,7 @@ export default function AboutPage() {
           ))}
         </section>
 
-        {/* Our Story */}
+        {}
         <section className="space-y-6 border-y border-neutral-800 py-10">
           <h2 className="text-2xl font-semibold tracking-tight text-neutral-100">
             Our story
@@ -158,7 +158,7 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Tech Stack Transparency */}
+        {}
         <section className="space-y-6">
           <div className="text-center space-y-2">
             <div className="inline-flex items-center gap-2 rounded-full border border-indigo-400/20 bg-indigo-400/10 px-3 py-1 text-xs font-medium uppercase tracking-wider text-indigo-400">
@@ -194,7 +194,7 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* What FeeCut Is Not */}
+        {}
         <section className="space-y-4">
           <h2 className="text-2xl font-semibold tracking-tight text-neutral-100">
             What FeeCut is not

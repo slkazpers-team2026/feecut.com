@@ -78,13 +78,13 @@ export default function ContactPage() {
 
   return (
     <main className="min-h-screen bg-[#09090b] px-4 py-12 text-neutral-200 sm:px-6 lg:px-8">
-      {/* Background glow */}
+      {}
       <div className="pointer-events-none fixed inset-0 overflow-hidden">
         <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-gradient-to-tr from-sky-600/10 via-indigo-600/5 to-transparent blur-[130px] rounded-full" />
       </div>
 
       <div className="relative z-10 mx-auto max-w-5xl space-y-12">
-        {/* Back navigation */}
+        {}
         <Link
           href="/"
           className="inline-flex items-center gap-2 text-sm text-neutral-400 hover:text-indigo-400 transition group"
@@ -93,7 +93,7 @@ export default function ContactPage() {
           Back to Calculator
         </Link>
 
-        {/* Header */}
+        {}
         <header className="space-y-4 text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-sky-400/20 bg-sky-400/10 px-3 py-1 text-xs font-medium uppercase tracking-wider text-sky-400">
             <Mail className="h-3.5 w-3.5" />
@@ -109,7 +109,7 @@ export default function ContactPage() {
         </header>
 
         <div className="grid gap-8 lg:grid-cols-[1fr_320px]">
-          {/* Contact Form / Feedback Message Box */}
+          {}
           <form
             onSubmit={handleSubmit}
             className="space-y-5 rounded-3xl border border-neutral-800/80 bg-neutral-950/40 p-6 shadow-xl shadow-black/30 backdrop-blur sm:p-8"
@@ -122,7 +122,7 @@ export default function ContactPage() {
             </div>
 
             <div className="grid gap-5 sm:grid-cols-2">
-              {/* Name */}
+              {}
               <div className="space-y-2">
                 <label
                   htmlFor="name"
@@ -146,7 +146,7 @@ export default function ContactPage() {
                 )}
               </div>
 
-              {/* Email */}
+              {}
               <div className="space-y-2">
                 <label
                   htmlFor="email"
@@ -171,7 +171,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Subject */}
+            {}
             <div className="space-y-2">
               <label
                 htmlFor="subject"
@@ -193,7 +193,7 @@ export default function ContactPage() {
               </select>
             </div>
 
-            {/* Message */}
+            {}
             <div className="space-y-2">
               <label
                 htmlFor="message"
@@ -216,7 +216,7 @@ export default function ContactPage() {
               )}
             </div>
 
-            {/* Submit */}
+            {}
             <button
               type="submit"
               disabled={state !== 'idle'}
@@ -249,9 +249,9 @@ export default function ContactPage() {
             )}
           </form>
 
-          {/* Sidebar Cards */}
+          {}
           <aside className="space-y-4">
-            {/* Direct email card */}
+            {}
             <div className="rounded-3xl border border-neutral-800/80 bg-neutral-950/40 p-6 shadow-xl shadow-black/30 backdrop-blur">
               <h2 className="text-lg font-semibold text-neutral-100">
                 Prefer email?
@@ -300,7 +300,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* FAQ Quick Links */}
+            {}
             <div className="rounded-3xl border border-neutral-800/80 bg-neutral-950/40 p-6 shadow-xl shadow-black/30 backdrop-blur">
               <div className="flex items-center gap-2 mb-3">
                 <HelpCircle className="h-5 w-5 text-indigo-400" />
@@ -352,7 +352,7 @@ export default function ContactPage() {
               </ul>
             </div>
 
-            {/* Response times */}
+            {}
             <div className="rounded-3xl border border-neutral-800/80 bg-neutral-950/40 p-6 shadow-xl shadow-black/30 backdrop-blur">
               <div className="flex items-center gap-2 mb-3">
                 <Clock className="h-4 w-4 text-neutral-500" />
