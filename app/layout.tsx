@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Footer from '@/components/Footer';
+import Script from 'next/script';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
@@ -31,6 +32,16 @@ export default function RootLayout({
   return (
     <html lang="en" className={`dark ${inter.className}`}>
       <body className="min-h-screen bg-[#09090b] text-neutral-100 antialiased selection:bg-indigo-500/30 selection:text-indigo-200">
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-0J0WFFGGHH" />
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-0J0WFFGGHH');
+          `}
+        </Script>
         {children}
         <Footer />
       </body>
