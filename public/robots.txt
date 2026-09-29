@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://feecut.pages.dev/sitemap.xml
+Sitemap: https://feecut-b8a.pages.dev/sitemap.xml

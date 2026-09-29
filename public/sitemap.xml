@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://feecut.pages.dev/</loc>
+    <loc>https://feecut-b8a.pages.dev/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://feecut.pages.dev/about</loc>
+    <loc>https://feecut-b8a.pages.dev/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://feecut.pages.dev/contact</loc>
+    <loc>https://feecut-b8a.pages.dev/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://feecut.pages.dev/privacy-policy</loc>
+    <loc>https://feecut-b8a.pages.dev/privacy-policy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://feecut.pages.dev/terms-of-service</loc>
+    <loc>https://feecut-b8a.pages.dev/terms-of-service</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
