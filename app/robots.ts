@@ -1,35 +1,15 @@
-import type { MetadataRoute } from 'next';
+import { MetadataRoute } from 'next';
+
+export const dynamic = 'force-static';
 
 export default function robots(): MetadataRoute.Robots {
-  const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL ?? 'https://feecut.com';
+  const baseUrl = 'https://feecut.pages.dev';
 
   return {
-    rules: [
-      {
-        userAgent: '*',
-        allow: '/',
-        disallow: [
-          '/api/',
-        ],
-      },
-      {
-        userAgent: 'Googlebot',
-        allow: '/',
-        disallow: ['/api/'],
-      },
-      {
-        userAgent: 'Bingbot',
-        allow: '/',
-        disallow: ['/api/'],
-      },
-      {
-        userAgent: 'DuckDuckBot',
-        allow: '/',
-        disallow: ['/api/'],
-      },
-    ],
-    sitemap: `${siteUrl}/sitemap.xml`,
-    host: siteUrl,
+    rules: {
+      userAgent: '*',
+      allow: '/',
+    },
+    sitemap: `${baseUrl}/sitemap.xml`,
   };
 }

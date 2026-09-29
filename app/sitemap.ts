@@ -1,7 +1,9 @@
 import { MetadataRoute } from 'next';
 
+export const dynamic = 'force-static'; // <-- මේ පේළිය මෙතනටත් එක් කරන්න
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://feecut-com.vercel.app';
+  const baseUrl = 'https://feecut.pages.dev';
 
   return [
     {
