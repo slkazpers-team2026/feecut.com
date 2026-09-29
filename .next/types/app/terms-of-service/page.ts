@@ -1,4 +1,4 @@
-// File: F:\Kazper's Project\FeeCut.com\app\terms-of-service\page.tsx
+// File: F:\KazpersProject\FeeCut.com\app\terms-of-service\page.tsx
 import * as entry from '../../../../app/terms-of-service/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

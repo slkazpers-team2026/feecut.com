@@ -1,0 +1,22 @@
+1:"$Sreact.fragment"
+2:I[1304,[],"ClientPageRoot"]
+3:I[1074,["422","static/chunks/422-4d9904b380b9d17d.js","977","static/chunks/app/contact/page-a3ee640d68d0e076.js"],"default"]
+6:I[484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+b:I[484,[],"ViewportBoundary"]
+c:I[484,[],"MetadataBoundary"]
+d:I[6869,[],"IconMark"]
+f:I[7121,[],""]
+10:I[4581,[],""]
+a:X
+0:{"buildId":"fPX47K8RuCqzBoaN33P-8","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],null,["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":"$@9","staleTime":"$a","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$Lb",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Contact · FeeCut"}],["$","meta","1",{"name":"description","content":"Get in touch with the FeeCut team. Report fee calculation errors, request features, or send partnership inquiries. Support email: support@feecut.com."}],["$","meta","2",{"name":"keywords","content":"fee calculator,stripe fees,paypal fees,wise transfer fees,freelance invoice calculator,merchant payment comparison"}],["$","meta","3",{"name":"robots","content":"index, follow"}],["$","link","4",{"rel":"canonical","href":"/contact"}],["$","link","5",{"rel":"icon","href":"/icon.svg"}],["$","link","6",{"rel":"apple-touch-icon","href":"/apple-icon.svg"}],["$","$Ld","7",{}]]}]}]}],null]}],"isPartial":"$@e","staleTime":"$a","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lf",null,{"parallelRouterKey":"children","template":["$","$L10",null,{}]}]]}],"isPartial":"$@11","staleTime":"$a","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@12","rootVaryParams":null,"needsRuntimeRequest":"$@13"}
+4:{}
+5:"$0:data:0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null
+13:true
+a:300
+a:C
+12:0
+e:"$undefined"
+11:"$undefined"
+9:"$undefined"
